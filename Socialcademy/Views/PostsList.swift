@@ -33,6 +33,9 @@ struct PostsList: View {
                 NewPostForm(createAction: viewModel.makeCreateAction())
             }
         }
+        .onAppear {
+            viewModel.fetchPosts()
+        }
     }
 }
 
