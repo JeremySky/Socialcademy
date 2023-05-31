@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Post: Identifiable, Codable {
+struct Post: Identifiable, Equatable, Codable {
     var id = UUID()
     var title: String
     var content: String
@@ -25,7 +25,7 @@ struct Post: Identifiable, Codable {
 //MARK: - for testing
 extension Post {
     static let testPost = Post(
-        title: "test title",
-        content: "this is a test for the content portion of post",
+        title: "Test Title",
+        content: "This is a test for the content portion of post.",
         authorName: "Jeremy")
 }
