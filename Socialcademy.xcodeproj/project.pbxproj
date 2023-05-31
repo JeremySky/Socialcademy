@@ -22,6 +22,7 @@
 		62465D532A27333B00C62DF3 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62465D522A27333B00C62DF3 /* PostsRepository.swift */; };
 		62465D572A27433A00C62DF3 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62465D562A27433A00C62DF3 /* Loadable.swift */; };
 		62465D5A2A27467300C62DF3 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62465D592A27467300C62DF3 /* EmptyListView.swift */; };
+		62465D5C2A27B4B300C62DF3 /* Alert+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62465D5B2A27B4B300C62DF3 /* Alert+Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		62465D522A27333B00C62DF3 /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
 		62465D562A27433A00C62DF3 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		62465D592A27467300C62DF3 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		62465D5B2A27B4B300C62DF3 /* Alert+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Error.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				62465D592A27467300C62DF3 /* EmptyListView.swift */,
+				62465D5B2A27B4B300C62DF3 /* Alert+Error.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				62465D4A2A256C7800C62DF3 /* PostRow.swift in Sources */,
 				62465D572A27433A00C62DF3 /* Loadable.swift in Sources */,
 				62465D462A256BB000C62DF3 /* PostsList.swift in Sources */,
+				62465D5C2A27B4B300C62DF3 /* Alert+Error.swift in Sources */,
 				62465D4E2A25727800C62DF3 /* NewPostForm.swift in Sources */,
 				62465D5A2A27467300C62DF3 /* EmptyListView.swift in Sources */,
 			);
